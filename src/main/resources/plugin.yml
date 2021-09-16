@@ -1,0 +1,14 @@
+name: BuyChunk
+version: '${project.version}'
+main: cc.silenter.buychunk.BuyChunk
+api-version: 1.17
+depend: [WorldEdit]
+permissions:
+  buychunk.buychunk:
+    description: '买地'
+    default: op
+commands:
+  buychunk:
+    description: '买地'
+    usage: /<command> reload
+    permission: buychunk.buychunk
